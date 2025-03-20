@@ -1,0 +1,101 @@
+body{
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(/Cafe.jpg);
+}
+
+/* Header Sylyes*/
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro-text{
+    font-style: italic;
+    color: white;
+}
+
+/*Menu Section Style*/
+.menu-section h2{
+    color: Red;
+    border-bottom: 2px solid #6B4226;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menu-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: transparent;
+    color: #f9f9f9;
+}
+
+.menu-table th, .menu-table td{
+    padding: 12px;
+    text-align:left;
+    border-bottom: 1px solid #6B4226;
+}
+
+.menu-table th{
+    background-color: #6B4226;
+    color: white;
+}
+
+/*Contact Section Styles*/
+.contact-section h2{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-info{
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 5px;
+    color: #6B4226;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.email-link{
+    color: #6B4226;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map-link{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #6B4226;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.map-link:hover{
+    background-color: transparent;
+    color: #f9f9f9;
+}
+
+.contact-socials{
+    gap: 1.5rem;
+    font-size: 1.8rem;
+}
+
+footer{
+    color: #f9f9f9;
+    text-align: center;
+    font-weight: bold;
+}
